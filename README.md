@@ -1,9 +1,9 @@
-# Monitoring Victorian Forestry using Free and Open Earth Observation Data - A Tutorial for the Digital Earth Australia Sandbox
+# Monitoring Victorian Forestry using Free and Open Earth Observation Data - A Tutorial using Digital Earth Australia data
 
 ## Summary
 
 This repository contains learning materials for a tutorial that teaches participants how to use free and open satellite data to monitor forestry activities in the state of Victoria, Australia.
-The materials make use of a free and open computing platform, the Digital Earth Australia Sandbox, along with analysis-ready Sentinel-2 data for Australia.
+The materials make use of a GitHub codespace as a free computing platform, and use Digital Earth Australia's analysis-ready Sentinel-2 data.
 The materials have been designed to be delivered by an instructor over three one-hour sessions, either in-person, online, or both (hybrid mode).
 
 ## Context
