@@ -1,0 +1,17 @@
+[project]
+name = "hyflex-earthobservation-practical"
+version = "0.1.0"
+description = "Materials to run hybrid tutorial for working with geospatial and Earth observation data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dea-tools[jupyter]>=0.4.3",
+    "folium>=0.12",
+    "geopandas>=1.1.1",
+    "ipyleaflet>=0.20.0",
+    "jupyter>=1.1.1",
+    "mapclassify>=2.10.0",
+    "matplotlib>=3.10.5",
+    "odc-stac[botocore]>=0.4.0",
+    "pandas>=2.3.2",
+]
