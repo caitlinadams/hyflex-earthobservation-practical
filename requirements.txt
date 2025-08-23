@@ -1,0 +1,9 @@
+odc-stac[botocore]
+pandas
+geopandas
+ipyleaflet
+jupyter
+folium>=0.12
+matplotlib
+mapclassify
+dea-tools[jupyter]

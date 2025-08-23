@@ -1,0 +1,30 @@
+{
+	"name": "Hyflex Earth Observation Practical",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	"hostRequirements": {
+		"cpus": 4,
+		"memory": "16gb",
+		"storage": "16gb"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"workbench.colorTheme": "GitHub Light Default"
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}
