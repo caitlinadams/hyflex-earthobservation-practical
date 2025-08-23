@@ -1,13 +1,9 @@
 {
 	"name": "Hyflex Earth Observation Practical",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
+ 	"features": {
+		"git-lfs": "latest"
+	},
 	"postCreateCommand": "pip3 install --user -r requirements.txt",
 	"hostRequirements": {
 		"cpus": 4,
