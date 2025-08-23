@@ -1,8 +1,11 @@
 {
 	"name": "Hyflex Earth Observation Practical",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
- 	"features": {
-		"git-lfs": "latest"
+	"features": {
+		"git-lfs": "latest",
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "18" // LTS version Codespaces expects
+		}
 	},
 	"postCreateCommand": "pip3 install --user -r requirements.txt",
 	"hostRequirements": {
