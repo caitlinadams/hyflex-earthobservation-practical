@@ -26,7 +26,7 @@ By completing the tutorial, participants will gain:
 - Experience in applying best-practice methods for environmental monitoring with satellite imagery.
 - Practice in conducting a real-world project, where data is collected, analysed, and interpreted.
 - Exposure to Python, one of the leading programming languages for data analysis.
-- Familiarity with the Digital Earth Australia platform – Australia's free and open analysis platform for satellite data, provided by Geoscience Australia.
+- Familiarity with the Digital Earth Australia data – Australia's free and open analysis-ready satellite data, provided by Geoscience Australia.
 
 ## Audience
 
@@ -36,8 +36,10 @@ Depnding on participants' familiarity with remote sensing, environmental monitor
 To support this, we provide some additional materials on
 
 - Environmental monitoring (short video)
-- The Digital Earth Australia Sandbox (short video)
+- Computing concepts (short video)
 - Programming with Python (Jupyter notebook)
+
+Please contact the repository owner to request the videos.
 
 ## Running this tutorial
 
@@ -45,7 +47,7 @@ To run the tutorial, we recommend that instructors have knowledge in:
 
 - Remote sensing, including familiarity with multispectral data and band indices.
 - Python, including geospatial libraries such as `geopandas` and `xarray`.
-- Digital Earth Australia, including the Digital Earth Australia Sandbox.
+- Digital Earth Australia data
 
 This material can be run in-person, online, or in a hybrid environment.
 We recommend a class size of up to 20 people with two instructors.
@@ -63,7 +65,7 @@ This resouce was developed by Dr. Caitlin Adams and Professor Chris Fluke (Swinb
 The resource was desined for the [Space Environment, Data, Visualisation and Applications course](https://www.swinburne.edu.au/course/unit/a/aer20002/) course at Swinburne University of Technology.
 The HyFlex implementation was supported by a Teaching and Learning Innovation Grant from the Australian Council of Environmental Deans and Directors.
 
-We are grateful to Geoscience Australia for providing the Digital Earth Australia Sandbox and associated Python libraries, which are the foundation for this resource. 
+We are grateful to Geoscience Australia for providing the Digital Earth Australia data and tools. 
 
 ### Citations
 Krause, C., Dunn, B., Bishop-Taylor, R., Adams, C., Burton, C., Alger, M., Chua, S., Phillips, C., Newey, V., Kouzoubov, K., Leith, A., Ayers, D., Hicks, A., DEA Notebooks contributors 2021. Digital Earth Australia notebooks and tools repository. Geoscience Australia, Canberra. https://doi.org/10.26186/145234
