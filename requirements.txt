@@ -560,8 +560,9 @@ pystac==1.13.0
     #   odc-stac
     #   planetary-computer
     #   pystac-client
-pystac-client==0.9.0
+pystac-client==0.8.6
     # via
+    #   hyflex-earthobservation-practical (pyproject.toml)
     #   dea-tools
     #   planetary-computer
 python-dateutil==2.9.0.post0
