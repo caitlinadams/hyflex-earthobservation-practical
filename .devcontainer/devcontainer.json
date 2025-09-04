@@ -8,7 +8,7 @@
     	},
 		"git-lfs": "latest"
 	},
-	"onCreateCommand": "python3 -m pip install -r requirements.txt ipykernel && python3 -m ipykernel install --sys-prefix --name devcontainer --display-name 'Python (AER20002)'",
+	"onCreateCommand": "python3 -m pip install -r requirements.txt ipykernel && python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)'",
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "16gb",
@@ -21,7 +21,7 @@
 				"jupyter.jupyterServerType": "local",
 		        "jupyter.notebookFileRoot": "${workspaceFolder}/practical",
 		        "jupyter.kernels.filter": [
-					{"path": "/usr/local/share/jupyter/kernels/devcontainer"}
+					{"path": "/home/vscode/.local/share/jupyter/kernels/devcontainer"}
 				],
 		        "workbench.colorTheme": "GitHub Light Default"
 			},
