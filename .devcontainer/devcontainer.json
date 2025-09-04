@@ -8,8 +8,8 @@
     	},
 		"git-lfs": "latest"
 	},
-	"onCreateCommand": "python3 -m pip install -r requirements.txt ipykernel && python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)'",
-	"postStartCommand": "python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)' --force",
+	"onCreateCommand": "python3 -m pip install -r requirements.txt",
+	"postStartCommand": "jupyter kernelspec uninstall -y devcontainer || true && python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)'",
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "16gb",
