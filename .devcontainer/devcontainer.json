@@ -18,7 +18,14 @@
 		"vscode": {
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
-				"workbench.colorTheme": "GitHub Light Default"
+				"jupyter.jupyterServerType": "local",
+		        "jupyter.notebookFileRoot": "${workspaceFolder}",
+		        "jupyter.kernels.filter": [
+					{
+						"path": "/usr/local/bin/python"
+					}
+				],
+		        "workbench.colorTheme": "GitHub Light Default"
 			},
 			"extensions": [
 				"ms-python.python",
