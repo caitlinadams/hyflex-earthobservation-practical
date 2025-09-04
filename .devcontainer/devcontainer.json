@@ -8,8 +8,8 @@
     	},
 		"git-lfs": "latest"
 	},
-	"onCreateCommand": "pip install -r requirements.txt",
-	"postCreateCommand": "pip install -r requirements.txt --quiet",
+	"onCreateCommand": "python3 -m pip install -r requirements.txt",
+	"postCreateCommand": "python3 -m pip install -r requirements.txt",
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "16gb",
@@ -18,13 +18,11 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.defaultInterpreterPath": "/usr/local/bin/python3",
 				"jupyter.jupyterServerType": "local",
 		        "jupyter.notebookFileRoot": "${workspaceFolder}/practical",
 		        "jupyter.kernels.filter": [
-					{
-						"path": "/usr/local/bin/python"
-					}
+					{"path": "/usr/local/bin/python3"}
 				],
 		        "workbench.colorTheme": "GitHub Light Default"
 			},
