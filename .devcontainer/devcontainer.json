@@ -9,7 +9,7 @@
 		"git-lfs": "latest"
 	},
 	"onCreateCommand": "pip install -r requirements.txt",
-	"postCreateCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "pip install -r requirements.txt --quiet",
 	"hostRequirements": {
 		"cpus": 2,
 		"memory": "16gb",
