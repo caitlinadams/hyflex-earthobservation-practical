@@ -8,9 +8,10 @@
     	},
 		"git-lfs": "latest"
 	},
-	"postCreateCommand": "pip install --user -r requirements.txt",
+	"onCreateCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "pip install -r requirements.txt",
 	"hostRequirements": {
-		"cpus": 4,
+		"cpus": 2,
 		"memory": "16gb",
 		"storage": "16gb"
 	},
@@ -19,7 +20,7 @@
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
 				"jupyter.jupyterServerType": "local",
-		        "jupyter.notebookFileRoot": "${workspaceFolder}",
+		        "jupyter.notebookFileRoot": "${workspaceFolder}/practical",
 		        "jupyter.kernels.filter": [
 					{
 						"path": "/usr/local/bin/python"
