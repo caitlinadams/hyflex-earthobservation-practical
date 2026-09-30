@@ -1,24 +1,16 @@
 {
 	"name": "Hyflex Earth Observation Practical",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12",
-	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {
-			"installZsh": "true",
-      		"upgradePackages": "false"
-    	},
-		"git-lfs": "latest"
-	},
-	"onCreateCommand": "python3 -m pip install -r requirements.txt",
-	"postStartCommand": "jupyter kernelspec uninstall -y devcontainer || true && python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)'",
+	"onCreateCommand": "pip3 install --user -r requirements.txt && python3 -m ipykernel install --user --name devcontainer --display-name 'Python (AER20002)'",
 	"hostRequirements": {
-		"cpus": 2,
+		"cpus": 4,
 		"memory": "16gb",
 		"storage": "16gb"
 	},
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"python.defaultInterpreterPath": "/usr/local/bin/python3",
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
 				"jupyter.jupyterServerType": "local",
 		        "jupyter.notebookFileRoot": "${workspaceFolder}/practical",
 		        "jupyter.kernels.filter": [
@@ -29,9 +21,9 @@
 			},
 			"extensions": [
 				"ms-python.python",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"GitHub.github-vscode-theme"
 			]
 		}
 	},
-	"remoteUser": "vscode"
 }
