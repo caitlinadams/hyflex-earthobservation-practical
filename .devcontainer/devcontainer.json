@@ -4,7 +4,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": "true",
-      		"upgradePackages": "true"
+      		"upgradePackages": "false"
     	},
 		"git-lfs": "latest"
 	},
